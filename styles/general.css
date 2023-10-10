@@ -1,8 +1,42 @@
 body {
   margin-bottom: 3000px;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(224, 224, 224);
 }
 
 p {
   margin: 0;
+}
+
+
+.background {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.background-container {
+  max-width: 1520px;
+}
+
+.background-image {
+  object-fit: cover;
+}
+
+.grid-section {
+  display: flex;
+  justify-content: center;
+  max-width: 1460px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: lightgreen;
+}
+
+.grids {
+  width: 300px;
+  height: 400px;
+  background-color: pink;
 }
