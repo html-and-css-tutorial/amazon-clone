@@ -1,0 +1,297 @@
+.upper-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 62px;
+  background-color: black;
+  display: flex;
+}
+
+.upper-header-left-section {
+  width: 305px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.main-logo {
+  width: 100px;
+  padding: 0 15px;
+  margin: 2px 5px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px
+}
+
+.main-logo:hover {
+  border-color: white;
+  cursor: pointer;
+}
+
+.location-container {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-right: 5px;
+}
+
+.location-container:hover { 
+  border-color: white;
+
+  cursor: pointer;
+}
+
+.location-icon {
+  width: 30px;
+  height: 25px;
+}
+
+.deliver-text {
+  color: rgb(194, 194, 194);
+  font-size: 12px;
+}
+
+.country-name {
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.upper-header-middle-section {
+  margin-left: 305px;
+  margin-right: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middle-section-container {
+  height: 40px;
+  display: flex;
+  width: 100%;
+  min-width: 260px;
+  border-radius: 5px;
+  margin-left: 10px;
+  color: white;
+}
+
+.search-type {
+  display: flex;
+  align-items: center;
+  width: 65px;
+  height: 40px;
+  background-color: rgb(224, 224, 224);
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  color: black;
+}
+
+.search-type:hover {
+  cursor: pointer;
+  background-color: rgb(206, 205, 205);
+}
+
+.search-type:active {
+  border-style: solid;
+  border-color: orange;
+  border-width: 2px;
+  width: 60px;
+  height: 36px;
+}
+
+.search-type:active .all-word {
+  padding: 8px;
+  padding-right: 10px;
+}
+
+.down-icon {
+  width: 10px;
+  margin-right: 5px;
+}
+
+.all-word {
+  padding: 10px;
+  font-size: 12px;
+}
+
+.input-section {
+  height: 38px;
+  width: 100%;
+  border: none;
+}
+
+.search-logo-holder {
+  height: 40px;
+  width: 40px;
+  background-color: orange;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.search-logo {
+  height: 20px;
+  margin: 10px;
+
+}
+
+.upper-header-right-section {
+  width: 390px;
+  min-width: 390px;
+  display: flex;
+}
+
+.select-language {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-right: 5px;
+  margin-right: 10px;
+}
+
+.select-language:hover {
+  border-color: white;
+}
+
+.language-selector {
+  width: 10px;
+  padding-top: 16px;
+}
+
+.flag {
+  width: 25px;
+  padding-top: 16px;
+}
+
+.language-sign {
+  padding-left: 5px;
+  padding-right: 2px;
+  font-weight: bold;
+  color: white;
+  padding-top: 16px;
+}
+
+.sign-in-section {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.sign-in-section:hover {
+  border-color: white;
+}
+
+.sign-in {
+  color: rgb(245, 244, 244);
+  font-size: 14px;
+  margin-left: 5px;
+}
+
+.accounts {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.returns-and-orders {
+  height: 56px;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(0, 0, 0);
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.returns-and-orders:hover {
+  border-color: white;
+}
+
+.returns {
+  color: white;
+  font-size: 12px;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+
+.and-orders {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.cart {
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-right: 5px;
+  margin-right: 5px;
+}
+
+.cart:hover {
+  border-color: white;
+}
+
+.shopping-cart-logo {
+  width: 30px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+.cart-word {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.cart-number {
+  position: absolute;
+  top: 8px;
+  right: 45px;
+  color: orange;
+  font-weight: bold;
+  padding: 3px 6px 2px 6px;
+  border-radius: 10px;
+}
+
+@media (max-width:1025px) {
+  .cart-word {
+    display: none;
+  }
+
+  .upper-header-right-section {
+    width: 350px;
+  }
+
+  .upper-header-middle-section {
+  }
+}
