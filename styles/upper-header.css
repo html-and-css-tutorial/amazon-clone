@@ -6,6 +6,7 @@
   height: 62px;
   background-color: black;
   display: flex;
+  z-index: 100;
 }
 
 .upper-header-left-section {

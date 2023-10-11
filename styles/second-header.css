@@ -9,6 +9,7 @@
   background-color: rgb(38, 35, 66);
   display: flex;
   align-items: center;
+  z-index: 100;
 }
 
 .second-header-sections {
