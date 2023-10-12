@@ -29,6 +29,10 @@
   border: 1px solid rgb(212, 131, 99);
 }
 
+.sign-in-button:hover {
+  cursor: pointer;
+}
+
 .footer-sign-in-section-last-row {
   font-size: 11px;
   margin-top: 5px;
@@ -85,5 +89,150 @@
 
 .columns-spacer {
   width: 100px;
-  color:  rgb(43, 55, 66);
+}
+
+.upper-header-second-part {
+  background-color:  rgb(43, 55, 66);
+  height: 110px;
+  border-top: 1px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.amazon-logo {
+  padding-top: 15px;
+  width: 80px;
+  margin-right: 80px;
+}
+
+.amazon-logo:hover {
+  cursor: pointer;
+}
+
+.language-selector-footer {
+  display: flex;
+  padding: 2px 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.language-selector-footer:hover {
+  cursor: pointer;
+}
+
+.language-name{
+  color: rgb(201, 199, 199);
+  font-size: 14px;
+  padding: 7px 0;
+}
+
+.updown-icons {
+  font-size: 7px;
+  color: rgb(131, 131, 131);
+  margin-left: 25px;
+}
+
+.currency {
+  padding: 2px 35px 2px 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.currency:hover {
+  cursor: pointer;
+}
+
+.curency-sign {
+  font-size: 14px;
+  color: white;
+}
+
+.country-name-and-flag {
+  display: flex;
+  padding: 2px 35px 2px 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  align-items: center;
+}
+
+.country-name-and-flag {
+  cursor: pointer;
+}
+
+.flag-2 {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.footer-last-part {
+  background-color: black;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-flex-container {
+  margin: 50px 20% 10px 20%;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer-flex {
+  width: 120px;
+  align-items: top;
+  margin: 20px 20px;
+}
+
+.footer-flex-title {
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  margin: 3px 0;
+}
+
+.footer-flex-discribe {
+  color: grey;
+  font-size: 12px;
+}
+
+.footer-flex:hover p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copyright-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  padding: 10px;
+  color: rgb(204, 204, 204);
+}
+
+.first-row {
+  margin: 20px 0 0 0;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+}
+
+.tik-cross {
+  height: 15px;
+  margin-left: -10px;
+}
+
+.copyright-section-texts:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.copyright-section-last-line {
+  margin: 7px 0 25px;
 }
