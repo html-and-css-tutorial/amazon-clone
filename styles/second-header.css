@@ -1,0 +1,46 @@
+.second-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px; 
+  margin-top: 60px;
+  padding-left: 10px;
+  background-color: rgb(38, 35, 66);
+  display: flex;
+  align-items: center;
+  z-index: 100;
+}
+
+.second-header-sections {
+  display: flex ;
+  align-items: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(38, 35, 66);
+  padding: 0 10px;
+  margin: 0 0px;
+  height: 38px;
+}
+
+.second-header-sections:hover {
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.hamburger-menu {
+  height: 16px;
+  width: 20px;
+  margin: 0px 10px;
+}
+
+.all-word-second-header {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.second-header-sections-text {
+  color: white;
+  font-size: 14px;
+}

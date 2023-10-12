@@ -6,6 +6,7 @@
   height: 62px;
   background-color: black;
   display: flex;
+  z-index: 100;
 }
 
 .upper-header-left-section {
@@ -103,7 +104,7 @@
   border-style: solid;
   border-color: orange;
   border-width: 2px;
-  width: 60px;
+  width: 61px;
   height: 36px;
 }
 
@@ -282,6 +283,12 @@
   padding: 3px 6px 2px 6px;
   border-radius: 10px;
 }
+
+@media (max-width:988px) {
+  .cart-number {
+    right: inherit;
+    left: 908px;
+  }
 
 @media (max-width:1025px) {
   .cart-word {
