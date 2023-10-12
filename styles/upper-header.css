@@ -289,6 +289,7 @@
     right: inherit;
     left: 908px;
   }
+}
 
 @media (max-width:1025px) {
   .cart-word {
@@ -297,8 +298,5 @@
 
   .upper-header-right-section {
     width: 350px;
-  }
-
-  .upper-header-middle-section {
   }
 }
